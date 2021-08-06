@@ -8,10 +8,17 @@ public class ReportService {
     ExpenseReport expenseReport = new ExpenseReport();
     TaxReport taxReport = new TaxReport();
 
-    public void generateReport(String type) {
-        if (type.equals("expense")) {
+    class expense extends ReportService{
+
+        public void generateExpenseReport(String type){
             expenseReport.generate();
-        } else {
+        }
+
+    }
+
+    class tax extends ReportService{
+
+        public void taxExpenseReport(String type){
             taxReport.generate();
         }
     }
