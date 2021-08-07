@@ -2,7 +2,8 @@ package br.edu.ifpb.report.controller;
 
 import br.edu.ifpb.report.database.PostgreSQLDatabaseConnector;
 
-public class ExpenseReport {
+
+public class ExpenseReport extends Report{
 
     private PostgreSQLDatabaseConnector connector = new PostgreSQLDatabaseConnector();
 

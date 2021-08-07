@@ -2,7 +2,7 @@ package br.edu.ifpb.report.controller;
 
 import br.edu.ifpb.report.database.MysqlDatabaseConnector;
 
-public class TaxReport {
+public class TaxReport extends Report {
 
     private MysqlDatabaseConnector connector = new MysqlDatabaseConnector();
 
