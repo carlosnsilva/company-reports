@@ -8,10 +8,6 @@ public abstract class Report {
 
     public void executeMySQLQuery() {}
 
-    public void convertToPDF() {}
-
-    public void convertToXLS() {}
-
     public void executePostgresQuery() {}
 
 }
